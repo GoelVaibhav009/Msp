@@ -365,22 +365,51 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
 
+}
 
+/* Social Media */
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
 
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
 
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
 
+.text-center {
+    text-align: center;
+}
 
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
 
+.social-icons li a i:hover {
+    box-shadow: 2px 2px 4px 4px rgba(230, 196, 196, 0.3);
+}
 
+.social-icons li a i {
+    font-size: 2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
 
-
-
-
-
-
-
-
+}
 
 
 /* media queries  */

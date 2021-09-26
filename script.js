@@ -36,3 +36,26 @@ $(document).ready(function(){
   });
 
 });
+
+// Box clickable
+$('.click-img').on('click', function(){
+  var link = $(this).attr("alt");
+  window.open(link);
+})
+
+// Form Empty
+function submitForm() {
+  var field = true;
+  var frm = $('#myForm')[0];
+  $('input:required').each(function() {
+    if ($(this).val() === ''){
+      field = false;
+    }
+  });
+  if(field!=false){
+    frm.submit(); // Submit the form
+    frm.reset();  // Reset all form data
+    return false; // Prevent page refresh
+  }
+  
+}
